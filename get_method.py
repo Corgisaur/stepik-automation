@@ -30,3 +30,6 @@ time.sleep(5)
 
 # После выполнения всех действий мы должны не забыть закрыть окно браузера
 driver.quit()
+
+
+driver.find_elements_by_css_selector().click()
